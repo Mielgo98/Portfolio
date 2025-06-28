@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import ProjectGrid from './ProjectGrid';
-import ProjectCarousel from './ProjectCarousel';
 import type { Project } from '../../types';
 
 interface Props {
@@ -21,11 +20,7 @@ const ProjectSwitcher: React.FC<Props> = ({ projects }) => {
         </button>
       </div>
 
-      {viewMode === 'carousel' ? (
-        <ProjectCarousel projects={projects} />
-      ) : (
-        <ProjectGrid projects={projects} />
-      )}
+      <ProjectGrid projects={projects} />
     </div>
   );
 };
