@@ -36,5 +36,15 @@ export const projects: Project[] = [
     link: "https://teatro.marmie.es/",
     
     featured: false
+  },
+
+  {
+    id: 4,
+    title: "Portfolio Personal",
+    description: "Portfolio profesional desarrollado con React, TypeScript y Vite. Diseño moderno, animaciones suaves y navegación fluida para mostrar habilidades y proyectos.",
+    image: "./../favicon.png", 
+    tech: ["React", "TypeScript", "Vite"],
+    github: "https://github.com/Mielgo98/Portfolio",
+    featured: true
   }
 ];
