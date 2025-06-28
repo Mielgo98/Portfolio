@@ -5,7 +5,7 @@ export const projects: Project[] = [
     id: 1,
     title: "HomeFlex",
     description: "Plataforma web de gestión de alquileres vacacionales desarrollada con Java y Spring Boot. Incluye funciones de reservas, pagos con Stripe y análisis estadístico.",
-    image: "/assets/img/homeflex.jpg",
+    image: "./assets/img/homeflex.jpg",
     tech: ["Java", "Spring Boot", "PostgreSQL", "Thymeleaf", "Stripe", "pgVector", "javascript", "BOOTstrap"],
     link: "https://homeflex.marmie.es/",
     github: "https://github.com/Mielgo98/HomFlex",
@@ -31,7 +31,7 @@ export const projects: Project[] = [
     id: 3,
     title: "Gestión de Teatro",
     description: "Sistema interactivo para la gestión y reserva de butacas de teatro con interfaz intuitiva y manejo dinámico del estado.",
-    image: "/assets/img/GestionTeatro.jpg",
+    image: "./assets/img/GestionTeatro.jpg",
     tech: ["JavaScript", "HTML5", "CSS3"],
     link: "https://teatro.marmie.es/",
     
@@ -42,7 +42,7 @@ export const projects: Project[] = [
     id: 4,
     title: "Portfolio Personal",
     description: "Portfolio profesional desarrollado con React, TypeScript y Vite. Diseño moderno, animaciones suaves y navegación fluida para mostrar habilidades y proyectos.",
-    image: "./../favicon.png", 
+    image: "./favicon.png", 
     tech: ["React", "TypeScript", "Vite"],
     github: "https://github.com/Mielgo98/Portfolio",
     featured: true
