@@ -161,7 +161,7 @@ const Home: React.FC = () => {
           <AnimatedSection animation="fadeInUp" delay={200}>
             <div className="contact-buttons">
               <a href="mailto:pablo@marmie.es" className="btn-primary">Contactar</a>
-              <a href="/public/assets/cv/Pablo_Martin_Mielgo_CV.pdf" target="_blank" className="btn-secondary">Descargar CV</a>
+              <a href="./Pablo_Martin_Mielgo_CV.pdf" target="_blank" className="btn-secondary">Descargar CV</a>
             </div>
           </AnimatedSection>
         </div>
