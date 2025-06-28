@@ -7,7 +7,7 @@ export const projects: Project[] = [
     description: "Plataforma web de gestión de alquileres vacacionales desarrollada con Java y Spring Boot. Incluye funciones de reservas, pagos con Stripe y análisis estadístico.",
     image: "../assets/img/homeflex.png",
     tech: ["Java", "Spring Boot", "PostgreSQL", "Thymeleaf", "Stripe", "pgVector", "javascript", "BOOTstrap"],
-    link: "./assets/img/homeflex.png",
+    link: "https://homeflex.marmie.es/",
     github: "https://github.com/Mielgo98/HomFlex",
     featured: true
   },
